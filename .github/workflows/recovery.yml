@@ -15,10 +15,10 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
   DEVICE: star
-  DT_LINK: https://github.com/mastersenpai05/device_xiaomi_star_twrp
+  DT_LINK: https://github.com/xyen8180/my-tree
   DT_PATH: device/xiaomi/star
   TARGET: bootimage
-  TZ: Asia/manila
+  TZ: Asia/Kolkata
 
 jobs:
   build:
@@ -64,5 +64,5 @@ jobs:
           tag_name: TWRP_11.0
           name: UNOFFICIAL TWRP_11
           files: | 
-            work/out/target/product/ares/boot.img
+            work/out/target/product/star/boot.img
             
