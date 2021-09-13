@@ -15,7 +15,7 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
   DEVICE: star
-  DT_LINK: https://github.com/xyen8180/my-tree
+  DT_LINK: https://github.com/xyen8180/test-tree
   DT_PATH: device/xiaomi/star
   TARGET: bootimage
   TZ: Asia/Kolkata
